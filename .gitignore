@@ -1,0 +1,20 @@
+# 녹음 원본은 용량 문제로 커밋 제외
+meetings/**/*.m4a
+meetings/**/*.mp3
+meetings/**/*.wav
+
+# 발표 자료 원본도 용량 문제로 커밋 제외
+meetings/**/*.pptx
+
+__pycache__/
+.pytest_cache/
+
+# Notion 붙여넣기용 변환본은 커밋 제외
+meetings/**/*_notion.md
+examples/**/*_notion.md
+
+# 개인 설정은 PC마다 따로 둔다
+_config/me.md
+
+# 에이전트 로컬 설정
+.claude/settings.local.json

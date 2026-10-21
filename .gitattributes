@@ -1,0 +1,5 @@
+# 여러 PC(Windows 포함)에서 줄바꿈을 LF로 고정. 스크립트 출력과 비교 결과를 일정하게 유지
+* text=auto eol=lf
+*.pdf binary
+*.pptx binary
+*.m4a binary
