@@ -14,6 +14,8 @@ Claude Code는 `/minutes`로 실행한다. 다른 에이전트는 이 파일을 
 - `experiments/`의 파일은 회의록·용어 판단의 근거로 쓰지 않는다.
 
 절차:
+0. `_config/me.md`·`_config/project.md`·`_glossary/terms.md`·`_glossary/speakers.md` 중 없는 것이 있으면 멈추고,
+   이 레포를 처음 쓰는 PC라서 개인 설정이 없는 것이라고 알린 뒤 세팅 절차(`workflows/setup.md`)를 먼저 진행한다.
 1. meetings/ 안의 회의 폴더를 확인한다. 여러 개면 대상을 물어본다.
    - `2_transcript/`의 전사문(`external.md`·`internal.md` 등) 전부와 `transcript_log.md` 전체를 읽는다.
      - 1절 확인 요청 (다시 들을 구간, 화자 확인)
